@@ -2,8 +2,7 @@
 	"manifest_version":2,
 	"name":"ZoomtexT",
 	"minimum_chrome_version":"23",
-	"version":"0.1",
-	"default_locale":"en",
+	"version":"0.1.1",
 	"description":"A plug-in which zooms on selected text",
 	"offline_enabled":true,
 	"app":{
@@ -11,11 +10,5 @@
 			"persistent":false,
 			"scripts":["main.js"]
 		}
-	},
-	"browser_action":{
-		"default_popup":"popup.html"
-	},
-	"permissions":[
-		"activeTab"
-	]
+	}
 }
